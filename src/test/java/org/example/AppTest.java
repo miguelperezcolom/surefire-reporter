@@ -13,8 +13,8 @@ public class AppTest
      * Rigorous Test :-)
      */
     @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
+    public void shouldAnswerWithTrue() throws Exception {
+        if (true) throw  new Exception("aaaa");
+        assertTrue( false );
     }
 }
