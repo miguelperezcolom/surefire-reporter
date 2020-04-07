@@ -12,7 +12,7 @@ import org.jdom2.output.XMLOutputter;
 import java.io.File;
 import java.io.IOException;
 
-public class Repoter {
+public class Reporter {
 
     public static final MediaType JSON = MediaType.get("application/json; charset=utf-8");
 

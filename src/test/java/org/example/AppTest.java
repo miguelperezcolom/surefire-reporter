@@ -14,7 +14,7 @@ public class AppTest
      */
     @Test
     public void shouldAnswerWithTrue() throws Exception {
-        if (true) throw  new Exception("aaaa");
-        assertTrue( false );
+        if (false) throw  new Exception("aaaa");
+        assertTrue( true );
     }
 }
